@@ -28,7 +28,9 @@ QueryCure is a modern, responsive web application designed to bridge the gap bet
 
 ## 📁 Project Structure
 
-Here is the complete directory structure for the NatureNest application:
+Here is the complete directory structure for the QueryCure application:
+
+```text
 QueryCure/
 ├── index.html             # Landing Page
 ├── login.html             # Role-based Auth (Doctor/Patient)
