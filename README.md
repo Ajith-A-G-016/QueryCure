@@ -22,7 +22,7 @@ QueryCure is a modern, responsive web application designed to bridge the gap bet
 
 **Core System:**
 * 🔐 Secure, role-based access control (Doctor/Patient).
-* 📱 Mobile-first, soft-gradient UI with scroll-triggered animations.
+* 📱 Mobile-first, soft-gradient UI with scroll-triggered animations. 
 
 ---
 
