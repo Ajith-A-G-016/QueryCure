@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueryCure - Video Consultations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><h2>Query<span>Cure</span></h2></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-doctors.html" class="active">Find Doctors</a></li>
+            <li><a href="medicines.html">Medicines</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="signin.html" class="login-btn">Log in</a>
+            <a href="signup.html" class="signup-btn">Sign up</a>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <h1>Your Video Consultations</h1>
+        <p>Consult with top doctors from the comfort and safety of your home.</p>
+    </div>
+
+    <div class="video-consult-container">
+        <div class="info-banner">
+            <i class="fa-solid fa-circle-info banner-icon"></i>
+            <div>
+                <h4>How it works</h4>
+                <p>A unique Google Meet link will be generated and provided to you exactly <strong>10 minutes before</strong> your scheduled time slot. Please refresh this page at that time to join your call.</p>
+            </div>
+        </div>
+
+        <div class="consult-header-row">
+            <h2>Upcoming Appointments</h2>
+            <a href="find-doctors.html" class="btn-outline-sm">+ Book New Consult</a>
+        </div>
+
+        <div class="appointment-list">
+            <div class="appointment-card">
+                <div class="doc-main-info">
+                    <div class="doc-avatar"><i class="fa-regular fa-user"></i></div>
+                    <div class="doc-details">
+                        <h3>Dr. Ramesh Kumar</h3>
+                        <p class="specialty">Cardiologist</p>
+                        <p class="appointment-time"><i class="fa-regular fa-calendar"></i> Tomorrow | 10:30 AM - 11:00 AM</p>
+                    </div>
+                </div>
+                <button class="btn-disabled"><i class="fa-solid fa-video"></i> Link Available at 10:20 AM</button>
+            </div>
+
+            <div class="appointment-card">
+                <div class="doc-main-info">
+                    <div class="doc-avatar"><i class="fa-regular fa-user"></i></div>
+                    <div class="doc-details">
+                        <h3>Dr. Kavitha Reddy</h3>
+                        <p class="specialty">Dermatologist</p>
+                        <p class="appointment-time"><i class="fa-regular fa-calendar"></i> Friday, Nov 3 | 04:00 PM - 04:30 PM</p>
+                    </div>
+                </div>
+                <button class="btn-disabled"><i class="fa-solid fa-video"></i> Link Available at 3:50 PM</button>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer" class="minimal">
+        <div class="footer-bottom"><p>&copy; 2026 QueryCure. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>

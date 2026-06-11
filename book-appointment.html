@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueryCure - Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><h2>Query<span>Cure</span></h2></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-doctors.html" class="active">Find Doctors</a></li>
+            <li><a href="medicines.html">Medicines</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="signin.html" class="login-btn">Log in</a>
+            <a href="signup.html" class="signup-btn">Sign up</a>
+        </div>
+    </nav>
+
+    <div class="booking-container">
+        <div class="doctor-card summary-card">
+            <div class="doc-main-info">
+                <div class="doc-avatar"><i class="fa-regular fa-user"></i></div>
+                <div class="doc-details">
+                    <h3>Dr. Ramesh Kumar</h3>
+                    <p class="specialty">Cardiologist</p>
+                    <div class="rating-box"><i class="fa-solid fa-star star-icon"></i><span>4.9</span><span class="reviews">(340 reviews)</span></div>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> Apollo Hospitals, Bannerghatta Road, Bangalore</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-form-box">
+            <h2>Complete your booking</h2>
+            <p class="sub-text">Please fill in the details below to confirm your appointment.</p>
+            
+            <form action="video-consult.html">
+                <div class="form-section">
+                    <h3>1. Select Date & Time</h3>
+                    <div class="input-group">
+                        <label>Appointment Date</label>
+                        <input type="date" required>
+                    </div>
+                    
+                    <label class="slots-label">Available Time Slots</label>
+                    <div class="time-slots">
+                        <input type="radio" name="time" id="t1" value="09:00 AM" required><label for="t1">09:00 AM</label>
+                        <input type="radio" name="time" id="t2" value="09:30 AM"><label for="t2">09:30 AM</label>
+                        <input type="radio" name="time" id="t3" value="10:00 AM"><label for="t3">10:00 AM</label>
+                        <input type="radio" name="time" id="t4" value="11:00 AM"><label for="t4">11:00 AM</label>
+                        <input type="radio" name="time" id="t5" value="02:00 PM"><label for="t5">02:00 PM</label>
+                        <input type="radio" name="time" id="t6" value="03:30 PM"><label for="t6">03:30 PM</label>
+                        <input type="radio" name="time" id="t7" value="04:00 PM"><label for="t7">04:00 PM</label>
+                        <input type="radio" name="time" id="t8" value="05:00 PM"><label for="t8">05:00 PM</label>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>2. Consultation Type</h3>
+                    <div class="consult-type">
+                        <input type="radio" name="type" id="in-clinic" value="in-clinic" checked>
+                        <label for="in-clinic">In-Clinic Visit</label>
+                        <input type="radio" name="type" id="video" value="video">
+                        <label for="video">Video Consultation</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary w-100">Confirm Appointment</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer id="site-footer" class="minimal">
+        <div class="footer-bottom"><p>&copy; 2026 QueryCure. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>

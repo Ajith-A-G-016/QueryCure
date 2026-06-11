@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueryCure - Sign In</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header"><a href="index.html"><h2>Query<span>Cure</span></h2></a></div>
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Log in to QueryCure to continue your wellness journey.</p>
+            <form action="index.html">
+                <div class="role-toggle">
+                    <input type="radio" id="signin-patient" name="user_role" value="patient" checked><label for="signin-patient">Patient</label>
+                    <input type="radio" id="signin-doctor" name="user_role" value="doctor"><label for="signin-doctor">Doctor</label>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="auth-btn">Log In</button>
+            </form>
+            <p class="switch-auth">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>

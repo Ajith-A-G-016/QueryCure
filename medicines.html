@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueryCure - Medicines</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><h2>Query<span>Cure</span></h2></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-doctors.html">Find Doctors</a></li>
+            <li><a href="medicines.html" class="active">Medicines</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="medicines.html" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i> <span class="cart-count">2</span></a>
+            <a href="signin.html" class="login-btn">Log in</a>
+            <a href="signup.html" class="signup-btn">Sign up</a>
+        </div>
+    </nav>
+
+    <div class="page-hero pharm-hero">
+        <h1>Your Online Pharmacy</h1>
+        <p>Get 15% off on your first medicine order. Delivered safely to your doorstep anywhere in Karnataka.</p>
+        <div class="pharm-search">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <div class="input-col">
+                <label>Search Medicines</label>
+                <input type="text" placeholder="E.g., Dolo 650, Citrinka, Gelusil...">
+            </div>
+            <button class="btn-primary search-btn-sq"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <div class="pharmacy-container">
+        <div class="category-pills">
+            <button class="pill active">All Medicines</button>
+            <button class="pill">Prescription</button>
+            <button class="pill">Vitamins & Supplements</button>
+            <button class="pill">Pain Relief</button>
+            <button class="pill">Cold & Immunity</button>
+            <button class="pill">Skin Care</button>
+            <button class="pill">Diabetes Care</button>
+            <button class="pill">First Aid</button>
+        </div>
+
+        <h2 class="section-title">All Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="prod-img-box"><i class="fa-solid fa-capsules prod-icon"></i></div>
+                <div class="prod-info">
+                    <h4>Dolo 650mg</h4>
+                    <p>Micro Labs Ltd</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="prod-img-box"><i class="fa-solid fa-prescription-bottle-medical prod-icon"></i></div>
+                <div class="prod-info">
+                    <h4>Shelcal 500mg</h4>
+                    <p>Torrent Pharmaceuticals</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="prod-img-box"><i class="fa-solid fa-pump-medical prod-icon"></i></div>
+                <div class="prod-info">
+                    <h4>Benadryl Cough Syrup</h4>
+                    <p>Johnson & Johnson</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="prod-img-box"><i class="fa-solid fa-droplet prod-icon"></i></div>
+                <div class="prod-info">
+                    <h4>Volini Pain Relief Gel</h4>
+                    <p>Sun Pharma</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer" class="minimal">
+        <div class="footer-bottom"><p>&copy; 2026 QueryCure. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>

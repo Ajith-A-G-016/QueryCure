@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueryCure - Find Doctors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><h2>Query<span>Cure</span></h2></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-doctors.html" class="active">Find Doctors</a></li>
+            <li><a href="medicines.html">Medicines</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="signin.html" class="login-btn">Log in</a>
+            <a href="signup.html" class="signup-btn">Sign up</a>
+        </div>
+    </nav>
+
+    <div class="find-doctors-container">
+        <div class="search-header">
+            <div class="search-input-wrapper">
+                <i class="fa-solid fa-location-dot search-icon"></i>
+                <input type="text" placeholder="Filter by city (e.g., Bangalore, Mysore), clinic, or zip code...">
+            </div>
+        </div>
+
+        <h2 class="results-title">Showing all 42 available doctors in Karnataka</h2>
+
+        <div class="doctor-list">
+            <div class="doctor-card">
+                <div class="doc-main-info">
+                    <div class="doc-avatar"><i class="fa-regular fa-user"></i></div>
+                    <div class="doc-details">
+                        <h3>Dr. Ramesh Kumar</h3>
+                        <p class="specialty">Cardiologist</p>
+                        <div class="rating-box"><i class="fa-solid fa-star star-icon"></i><span>4.9</span><span class="reviews">(340 reviews)</span></div>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> Apollo Hospitals, Bannerghatta Road, Bangalore</p>
+                    </div>
+                </div>
+                <div class="doc-actions">
+                    <a href="book-appointment.html" class="btn-primary block-btn">Book Appointment</a>
+                    <a href="video-consult.html" class="btn-outline block-btn"><i class="fa-solid fa-video"></i> Video Consult</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <div class="doc-main-info">
+                    <div class="doc-avatar"><i class="fa-regular fa-user"></i></div>
+                    <div class="doc-details">
+                        <h3>Dr. Kavitha Reddy</h3>
+                        <p class="specialty">Dermatologist</p>
+                        <div class="rating-box"><i class="fa-solid fa-star star-icon"></i><span>4.8</span><span class="reviews">(185 reviews)</span></div>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> SkinCare Clinic, Gokulam, Mysore</p>
+                    </div>
+                </div>
+                <div class="doc-actions">
+                    <a href="book-appointment.html" class="btn-primary block-btn">Book Appointment</a>
+                    <a href="video-consult.html" class="btn-outline block-btn"><i class="fa-solid fa-video"></i> Video Consult</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <div class="doc-main-info">
+                    <div class="doc-avatar"><i class="fa-regular fa-user"></i></div>
+                    <div class="doc-details">
+                        <h3>Dr. Sunil Shetty</h3>
+                        <p class="specialty">Pediatrician</p>
+                        <div class="rating-box"><i class="fa-solid fa-star star-icon"></i><span>5.0</span><span class="reviews">(210 reviews)</span></div>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> KMC Hospital, Ambedkar Circle, Mangalore</p>
+                    </div>
+                </div>
+                <div class="doc-actions">
+                    <a href="book-appointment.html" class="btn-primary block-btn">Book Appointment</a>
+                    <a href="video-consult.html" class="btn-outline block-btn"><i class="fa-solid fa-video"></i> Video Consult</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer" class="minimal">
+        <div class="footer-bottom"><p>&copy; 2026 QueryCure. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>
