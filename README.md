@@ -32,13 +32,13 @@ Here is the complete directory structure for the QueryCure application:
 
 ```text
 QueryCure/
-├── index.html             # Landing Page
-├── login.html             # Role-based Auth (Doctor/Patient)
-├── doctor-portal.html     # Doctor Dashboard
-├── patient-portal.html    # Patient Dashboard
-├── discover.html          # Doctor Search UI
-├── booking.html           # Scheduling System
-├── pharmacy.html          # E-Pharmacy Storefront
-├── css/                   # Stylesheets & Animations
-├── js/                    # Core Logic & Observers
-└── assets/                # Images & SVG Icons
+├── index.html                # Landing Page
+├── signin.html               # User Login
+├── signup.html               # User Registration
+├── find-doctors.html         # Doctor Search UI
+├── book-appointment.html     # Scheduling System
+├── video-consult.html        # Virtual Meeting Interface
+├── medicines.html            # E-Pharmacy Storefront
+├── style.css                 # Main Stylesheet
+├── auth.css                  # Authentication Styles
+└── script.js                 # Core Logic & Interactivity
